@@ -7,6 +7,7 @@
 ## Description
 
 Simple to add, update, delete and cross out complete items.
+![plot](./printscreen.png)
 
 ## Getting Started
 
