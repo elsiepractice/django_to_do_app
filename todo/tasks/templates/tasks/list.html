@@ -39,10 +39,14 @@ crossorigin="anonymous">
 		background-color: #ffae19;
 		border-color: #e59400;
 	}
+    h4{
+        text-align: center;
+        color: #7A6762;
+    }
 </style>
 
 <div class="center-column">
-    <h3>2022 TO DO LIST</h3>
+    <h4>2022 TO DO LIST</h4>
     <form method="POST" action="/">
         {% csrf_token %}
         {{form.title}}
