@@ -13,40 +13,26 @@ Simple to add, update, delete and cross out complete items.
 
 ### Dependencies
 
-* css bootstrap
+* Django
+* CSS bootstrap
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* pip install django
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
 ```
-    Create project
-    Migrate database & create user
-    Create app
-    URL Routing
-    Templates
-    Create Model (Task)
-    Render data (Tasks) in template
-    Model Form
-    Create Item
-    Update Item
-    Delete Item
-    Cross out complete items
-    Style template
+    $ cd django_to_do_app
+    $ python3 -m venv venv 
+    $ source venv/bin/activate 
+    $ python manage.py runserver
+    $ python manage.py createsuperuser
 ```
 
 ## Help
-
-Any advise for common problems or issues.
-```
-python manage.py runserver
-python manage.py createsuperuser
-```
 
 ## Authors
 
@@ -55,15 +41,10 @@ Elsie Lin
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
